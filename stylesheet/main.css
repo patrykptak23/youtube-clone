@@ -1,0 +1,43 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 16px;
+    height: 56px;
+    color: #b4b4b4;
+}
+#navleft{
+    float: left;
+    display: flex;
+    height: 56px;
+    align-items: center;
+    padding: 0;
+}
+#navsearch{
+    float: left;
+}
+#navright{
+    float: left;
+    display: inline;
+    align-items: center;
+}
+#container{
+    clear: both;
+}
+#movie{
+    float: left;
+    text-align: left;
+    background-color: chartreuse;
+    padding: 20px;
+    width: 70%;
+}
+#reccomendations{
+    float: left;
+    text-align: right;
+    background-color: magenta;
+    padding: 20px;
+    width: auto;
+}
+#footer{
+    clear: both;
+}
